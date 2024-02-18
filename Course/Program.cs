@@ -5,9 +5,8 @@ namespace Course
     {
         static void Main(string[] args)
         {
-            god god = new god();
-            string n = "Welcome to my world";
-            god.SpinWords(n);
+            god god = new god(); 
+            god.Likes(new string[0]);
             Console.ReadLine();
 
         }
